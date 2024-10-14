@@ -162,11 +162,11 @@
 
         keypad {
             bindings = <
-&trans  &trans        &trans          &trans        &trans      &trans  &trans                                      &mo 5   &kp CARET        &kp POUND      &kp DOLLAR        &kp PERCENT  &kp SLASH     &kp PIPE
-&trans  &trans        &kp CARET       &kp UP        &kp DOLLAR  &trans  &none                                       &none   &kp TILDE        &kp N7         &kp N8            &kp N9       &kp ASTERISK  &kp K
-&trans  &trans        &kp LEFT        &kp DOWN      &kp RIGHT   &trans  &none   &trans  &trans      &trans  &trans  &none   &kp COLON        &kp N4         &kp N5            &kp N6       &kp MINUS     &kp J
-&trans  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_GUI  &kp LCTRL   &trans                  &trans      &trans                  &kp EXCLAMATION  &kp N1         &kp N2            &kp N3       &kp PLUS      &kp LS(G)
-&trans  &trans        &trans          &trans        &trans              &trans  &trans  &trans      &trans  &trans  &kp N0                   &kp LESS_THAN  &kp GREATER_THAN  &kp PERIOD   &kp EQUAL     &kp AMPERSAND
+&trans  &trans        &trans          &trans        &trans      &trans  &trans                                      &mo 5   &kp CARET        &kp POUND  &kp DOLLAR  &kp PERCENT  &kp SLASH     &kp PIPE
+&trans  &trans        &kp CARET       &kp UP        &kp DOLLAR  &trans  &none                                       &none   &kp TILDE        &kp N7     &kp N8      &kp N9       &kp ASTERISK  &kp K
+&trans  &trans        &kp LEFT        &kp DOWN      &kp RIGHT   &trans  &none   &trans  &trans      &trans  &trans  &none   &kp COLON        &kp N4     &kp N5      &kp N6       &kp MINUS     &kp J
+&trans  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_GUI  &kp LCTRL   &trans                  &trans      &trans                  &kp EXCLAMATION  &kp N1     &kp N2      &kp N3       &kp PLUS      &kp LS(G)
+&trans  &trans        &trans          &trans        &trans              &trans  &trans  &trans      &trans  &trans  &kp N0                   &kp SPACE  &kp COMMA   &kp PERIOD   &kp EQUAL     &kp AMPERSAND
             >;
         };
 
