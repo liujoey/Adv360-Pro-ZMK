@@ -162,21 +162,21 @@
 
         keypad {
             bindings = <
-&trans  &trans        &trans          &trans        &trans      &trans  &trans                                      &mo 5   &trans     &trans     &trans     &trans      &kp SLASH     &kp PIPE
-&trans  &trans        &kp CARET       &kp UP        &kp DOLLAR  &trans  &none                                       &none   &trans     &kp N7     &kp N8     &kp N9      &kp ASTERISK  &kp K
-&trans  &trans        &kp LEFT        &kp DOWN      &kp RIGHT   &trans  &none   &trans  &trans      &trans  &trans  &none   &kp COLON  &kp N4     &kp N5     &kp N6      &kp MINUS     &kp J
-&trans  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_GUI  &kp LCTRL   &trans                  &trans      &trans                  &trans     &kp N1     &kp N2     &kp N3      &kp PLUS      &kp LS(G)
-&trans  &trans        &trans          &trans        &trans              &trans  &trans  &trans      &trans  &mo 4   &kp N0             &kp SPACE  &kp COMMA  &kp PERIOD  &kp EQUAL     &trans
+&trans  &trans        &trans          &trans        &trans      &trans  &trans                                           &mo 5   &trans     &trans     &trans     &trans      &kp SLASH     &kp PIPE
+&trans  &trans        &kp CARET       &kp UP        &kp DOLLAR  &trans  &none                                            &none   &trans     &kp N7     &kp N8     &kp N9      &kp ASTERISK  &kp K
+&trans  &trans        &kp LEFT        &kp DOWN      &kp RIGHT   &trans  &none   &trans  &trans      &trans  &trans       &none   &kp COLON  &kp N4     &kp N5     &kp N6      &kp MINUS     &kp J
+&trans  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_GUI  &kp LCTRL   &trans                  &trans      &trans                       &trans     &kp N1     &kp N2     &kp N3      &kp PLUS      &kp LS(G)
+&trans  &trans        &trans          &trans        &trans              &trans  &trans  &trans      &trans  &lt 4 ENTER  &kp N0             &kp SPACE  &kp COMMA  &kp PERIOD  &kp EQUAL     &trans
             >;
         };
 
         symbol {
             bindings = <
-&trans     &kp EXCLAMATION    &kp SINGLE_QUOTE      &kp DOUBLE_QUOTES      &kp BSLH          &kp N         &trans                                               &trans  &trans         &trans     &trans         &trans           &trans        &trans
-&kp CARET  &kp LESS_THAN      &kp PLUS              &kp MINUS              &kp GREATER_THAN  &kp DOLLAR    &trans                                               &trans  &kp LG(LS(Z))  &kp LG(V)  &kp LG(C)      &kp LG(X)        &kp LG(Z)     &trans
-&kp TILDE  &kp LEFT_BRACKET   &kp EQUAL             &kp UNDERSCORE         &kp RIGHT_BRACE   &kp PERCENT   &trans  &kp DOT    &kp ASTERISK      &trans  &trans  &trans  &kp BSPC       &kp RET    &kp SEMI       &kp TAB          &kp DEL       &trans
-&kp POUND  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE    &kp ASTERISK                     &trans            &trans                  &trans         &kp RCTRL  &kp RIGHT_GUI  &kp RIGHT_SHIFT  &kp LEFT_ALT  &trans
-&trans     &kp GRAVE          &kp AMPERSAND         &kp PIPE               &kp AT_SIGN                     &mo 4   &kp COLON  &trans            &trans  &trans  &trans                 &trans     &trans         &trans           &trans        &trans
+&trans     &kp EXCLAMATION    &kp SINGLE_QUOTE      &kp DOUBLE_QUOTES      &kp BSLH          &kp N         &trans                                                    &trans  &trans         &trans     &trans         &trans           &trans        &trans
+&kp CARET  &kp LESS_THAN      &kp PLUS              &kp MINUS              &kp GREATER_THAN  &kp DOLLAR    &trans                                                    &trans  &kp LG(LS(Z))  &kp LG(V)  &kp LG(C)      &kp LG(X)        &kp LG(Z)     &trans
+&kp TILDE  &kp LEFT_BRACKET   &kp EQUAL             &kp UNDERSCORE         &kp RIGHT_BRACE   &kp PERCENT   &trans       &kp DOT    &kp ASTERISK      &trans  &trans  &trans  &kp BSPC       &kp RET    &kp SEMI       &kp TAB          &kp DEL       &trans
+&kp POUND  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE    &kp ASTERISK                          &trans            &trans                  &trans         &kp RCTRL  &kp RIGHT_GUI  &kp RIGHT_SHIFT  &kp LEFT_ALT  &trans
+&trans     &kp GRAVE          &kp AMPERSAND         &kp PIPE               &kp AT_SIGN                     &lt 4 SPACE  &kp COLON  &trans            &trans  &trans  &trans                 &trans     &trans         &trans           &trans        &trans
             >;
         };
 
